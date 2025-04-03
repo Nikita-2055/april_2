@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int positiv(int n){
+    if(n >= 0){
+        return 1;
+    }else{
+        return 0;
+    }
+
+}
+
+int main(){
+    int n = 0;
+    scanf("%d",&n);
+    printf("result: %d\n",positiv(n));
+    return 0;
+}
