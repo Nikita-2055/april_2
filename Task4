@@ -1,0 +1,11 @@
+#include<stdio.h>
+float sum(float a, float b){
+    float res = a + b;
+    return res;
+}
+int main(){
+    float a = 12.15;
+    float b = 3.58;
+    printf("result: %f\n",sum(a,b));
+    return 0;
+}
